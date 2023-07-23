@@ -1,11 +1,726 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organick</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navigation">
+        <img
+          src="images/home/Logo.svg"
+          alt="This is logo image"
+          class="header__logo"
+        />
+        <ul class="navigation__items">
+          <li class="navigation__item"><a href="index.html">Home</a></li>
+          <li class="navigation__item">
+            <a href="./pages/about.html">About</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#"
+              >Pages
+              <img
+                src="images/home/Icon_arrow.svg"
+                alt="This is arrow image"
+                class="header__arrow"
+            /></a>
+          </li>
+          <li class="navigation__item"><a href="./pages/shop.html">Shop</a></li>
+          <li class="navigation__item"><a href="#">Projects</a></li>
+          <li class="navigation__item"><a href="#">News</a></li>
+        </ul>
+        <input type="search" class="header__input" />
+        <img
+          src="images/home/Search Icon.svg"
+          alt="This is search image"
+          class="header__search"
+        />
+        <button class="header__button">
+          <img
+            src="images/home/Cart Icon.svg"
+            alt="This is cart icon image"
+            class="header__cart"
+          />
+          <span>Cart (0)</span>
+        </button>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="banner__section">
+        <div class="container1">
+          <img
+            src="images/home/Background__hero.png"
+            alt="This is banner image"
+            class="banner__img1"
+          />
+        </div>
+        <div class="container">
+          <div class="banner__info">
+            <p class="banner__info__title1">100% Natural Food</p>
+            <h1 class="info__title">
+              Choose the best healthier way <br />
+              of life
+            </h1>
+            <button class="info__btn">
+              Explore Now
+              <img src="images/home/Aerrow.svg" alt="This is arrow image" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="offer_banner__section">
+        <div class="container">
+          <ul class="offer__banner__cards">
+            <li class="offer__banner__card1">
+              <div class="card__info">
+                <p class="info__subtitle">Natural!!</p>
+                <h3 class="card__info__title">Get Garden Fresh Fruits</h3>
+              </div>
+            </li>
+            <li class="offer__banner__card2">
+              <div class="card__info">
+                <p class="info__subtitle sub2">Offer!!</p>
+                <h3 class="card__info__title title2">
+                  Get 10% off on Vegetables
+                </h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="about__section">
+        <div class="container2">
+          <div class="about__box">
+            <div class="about__content">
+              <div class="content__info">
+                <p class="content__info__title1">About Us</p>
+                <h3 class="content__info__title">
+                  We Believe in Working Accredited Farmers
+                </h3>
+                <p class="content__info__subtitle">
+                  Simply dummy text of the printing and typesetting industry.
+                  Lorem had ceased to been the industry's standard dummy text
+                  ever since the 1500s, when an unknown printer took a galley.
+                </p>
+              </div>
+              <ul class="content__points">
+                <li class="content__point">
+                  <img
+                    src="images/home/about_Icon1.svg"
+                    alt="This is icon image"
+                  />
+                  <div class="point__info">
+                    <h4 class="point__title">Organic Foods Only</h4>
+                    <p class="point__subtitle">
+                      Simply dummy text of the printing and typesetting
+                      industry. Lorem Ipsum
+                    </p>
+                  </div>
+                </li>
+                <li class="content__point">
+                  <img
+                    src="images/home/about_Icon2.svg"
+                    alt="This is icon image"
+                  />
+                  <div class="point__info">
+                    <h4 class="point__title">Quality Standards</h4>
+                    <p class="point__subtitle">
+                      Simply dummy text of the printing and typesetting
+                      industry. Lorem Ipsum
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              <button class="content__btn">
+                Shop Now
+                <img
+                  src="images/home/Aerrow.svg"
+                  alt="This is arrow image"
+                  class="content__btn__img"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="shop__section">
+        <div class="container">
+          <div class="shop__box">
+            <div class="shop__heading">
+              <p class="heading__title1">Categories</p>
+              <h4 class="heading__title">Our Products</h4>
+            </div>
+            <div class="shop__content">
+              <div class="shop__cards">
+                <ul class="shop__products">
+                  <li class="shop__product">
+                    <button class="shop__btn">Vegetable</button>
+                    <img
+                      src="images/home/Product1.png"
+                      alt="This is vegetable image"
+                      class="product__img"
+                    />
+                    <div class="shop__content1">
+                      <h6 class="shop__content1__title">Calabrese Broccoli</h6>
+                      <p class="linear"></p>
+                      <div class="rating">
+                        <div class="prices">
+                          <p class="price1"><del>$20.00</del></p>
+                          <p class="price2">$13.00</p>
+                        </div>
+                        <img
+                          src="images/home/Star.svg"
+                          alt="This is star image"
+                        />
+                      </div>
+                    </div>
+                  </li>
+                  <li class="shop__product">
+                    <button class="shop__btn">Fresh</button>
+                    <img
+                      src="images/home/Product2.png"
+                      alt="This is fresh image"
+                      class="product__img p_img2"
+                    />
+                    <div class="shop__content1">
+                      <h6 class="shop__content1__title">
+                        Fresh Banana Fruites
+                      </h6>
+                      <p class="linear"></p>
+                      <div class="rating">
+                        <div class="prices">
+                          <p class="price1"><del>$20.00</del></p>
+                          <p class="price2">$14.00</p>
+                        </div>
+                        <img
+                          src="images/home/Star.svg"
+                          alt="This is star image"
+                        />
+                      </div>
+                    </div>
+                  </li>
+                  <li class="shop__product">
+                    <button class="shop__btn">Millets</button>
+                    <img
+                      src="images/home/Product3.png"
+                      alt="This is millets image"
+                      class="product__img"
+                    />
+                    <div class="shop__content1">
+                      <h6 class="shop__content1__title">White Nuts</h6>
+                      <p class="linear"></p>
+                      <div class="rating">
+                        <div class="prices">
+                          <p class="price1"><del>$20.00</del></p>
+                          <p class="price2">$15.00</p>
+                        </div>
+                        <img
+                          src="images/home/Star.svg"
+                          alt="This is star image"
+                        />
+                      </div>
+                    </div>
+                  </li>
+                  <li class="shop__product">
+                    <button class="shop__btn">Vegetable</button>
+                    <img
+                      src="images/home/Product4.png"
+                      alt="This is vegetable image"
+                      class="product__img"
+                    />
+                    <div class="shop__content1">
+                      <h6 class="shop__content1__title">Vegan Red Tomato</h6>
+                      <p class="linear"></p>
+                      <div class="rating">
+                        <div class="prices">
+                          <p class="price1"><del>$20.00</del></p>
+                          <p class="price2">$17.00</p>
+                        </div>
+                        <img
+                          src="images/home/Star.svg"
+                          alt="This is star image"
+                        />
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="shop__products1">
+                  <li class="shop__product">
+                    <button class="shop__btn">Health</button>
+                    <img
+                      src="images/home/Product5.png"
+                      alt="This is health image"
+                      class="product__img p_img5"
+                    />
+                    <div class="shop__content1">
+                      <h6 class="shop__content1__title">Mung Bean</h6>
+                      <p class="linear"></p>
+                      <div class="rating">
+                        <div class="prices">
+                          <p class="price1"><del>$20.00</del></p>
+                          <p class="price2">$11.00</p>
+                        </div>
+                        <img
+                          src="images/home/Star.svg"
+                          alt="This is star image"
+                        />
+                      </div>
+                    </div>
+                  </li>
+                  <li class="shop__product">
+                    <button class="shop__btn">Nuts</button>
+                    <img
+                      src="images/home/Product6.png"
+                      alt="This is nuts image"
+                      class="product__img p_img6"
+                    />
+                    <div class="shop__content1">
+                      <h6 class="shop__content1__title">Brown Hazelnut</h6>
+                      <p class="linear"></p>
+                      <div class="rating">
+                        <div class="prices">
+                          <p class="price1"><del>$20.00</del></p>
+                          <p class="price2">$12.00</p>
+                        </div>
+                        <img
+                          src="images/home/Star.svg"
+                          alt="This is star image"
+                        />
+                      </div>
+                    </div>
+                  </li>
+                  <li class="shop__product">
+                    <button class="shop__btn">Fresh</button>
+                    <img
+                      src="images/home/Product7.png"
+                      alt="This is fresh image"
+                      class="product__img p_img7"
+                    />
+                    <div class="shop__content1">
+                      <h6 class="shop__content1__title">Eggs</h6>
+                      <p class="linear"></p>
+                      <div class="rating">
+                        <div class="prices">
+                          <p class="price1"><del>$20.00</del></p>
+                          <p class="price2">$17.00</p>
+                        </div>
+                        <img
+                          src="images/home/Star.svg"
+                          alt="This is star image"
+                        />
+                      </div>
+                    </div>
+                  </li>
+                  <li class="shop__product">
+                    <button class="shop__btn">Fresh</button>
+                    <img
+                      src="images/home/Product8.png"
+                      alt="This is vegetable image"
+                      class="product__img p_img8"
+                    />
+                    <div class="shop__content1">
+                      <h6 class="shop__content1__title">
+                        Zelco Suji Elaichi Rusk
+                      </h6>
+                      <p class="linear"></p>
+                      <div class="rating">
+                        <div class="prices">
+                          <p class="price1"><del>$20.00</del></p>
+                          <p class="price2">$15.00</p>
+                        </div>
+                        <img
+                          src="images/home/Star.svg"
+                          alt="This is star image"
+                        />
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <button class="content__btn">
+                Load More
+                <img
+                  src="images/home/Aerrow.svg"
+                  alt="This is arrow image"
+                  class="content__btn__img"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial__section">
+        <div class="container3">
+          <div class="testimonial__box">
+            <div class="testimonial__content">
+              <div class="testimonial__heading">
+                <p class="testimonial__heading__title1">Testimonial</p>
+                <h3 class="testimonial__heading__title">
+                  What Our Customer Saying?
+                </h3>
+              </div>
+              <div class="testimonial__review">
+                <img
+                  src="images/home/testimonials_img.svg"
+                  alt="This woman image"
+                />
+                <div class="review__content">
+                  <img src="images/home/Star.svg" alt="This is star image" />
+                  <p class="review__subtitle">
+                    Simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been.
+                  </p>
+                </div>
+                <div class="testimonial__name">
+                  <div class="name__top">
+                    <h5 class="name__title">Sara Taylor</h5>
+                    <p class="name__subtitle">Consumer</p>
+                  </div>
+                  <img
+                    src="images/home/Navigation.svg"
+                    alt="This is navigation image"
+                  />
+                </div>
+              </div>
+            </div>
+            <p class="linear"></p>
+            <div class="testimonial__counters">
+              <div class="counters__box">
+                <h5 class="counters__box__title">100%</h5>
+                <p class="counters__box__subtitle">Organic</p>
+              </div>
+              <div class="counters__box">
+                <h5 class="counters__box__title">285</h5>
+                <p class="counters__box__subtitle">Active Product</p>
+              </div>
+              <div class="counters__box">
+                <h5 class="counters__box__title">350+</h5>
+                <p class="counters__box__subtitle">Organic Orchads</p>
+              </div>
+              <div class="counters__box">
+                <h5 class="counters__box__title">25+</h5>
+                <p class="counters__box__subtitle">Years of Farming</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="offer__section">
+        <div class="container">
+          <div class="offer__box">
+            <div class="offer__content">
+              <div class="offer__content__heading">
+                <p class="o_c_h__subtitle">Offer</p>
+                <h3 class="o_c_h_title">We Offer Organic For You</h3>
+              </div>
+              <button class="offer__content__button">
+                View All Product
+                <img src="images/home/Aerrow.svg" alt="This is arrow image" />
+              </button>
+            </div>
+
+            <div class="offer__content2">
+              <ul class="shop__products1">
+                <li class="shop__product offer_77">
+                  <button class="shop__btn">Vegetable</button>
+                  <img
+                    src="images/home/offer1.png"
+                    alt="This is health image"
+                    class="product__img p_img5"
+                  />
+                  <div class="shop__content1">
+                    <h6 class="shop__content1__title">Mung Bean</h6>
+                    <p class="linear"></p>
+                    <div class="rating">
+                      <div class="prices">
+                        <p class="price1"><del>$20.00</del></p>
+                        <p class="price2">$11.00</p>
+                      </div>
+                      <img
+                        src="images/home/Star.svg"
+                        alt="This is star image"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="shop__product offer_77">
+                  <button class="shop__btn">Vegetable</button>
+                  <img
+                    src="images/home/offer2.png"
+                    alt="This is health image"
+                    class="product__img p_img5"
+                  />
+                  <div class="shop__content1">
+                    <h6 class="shop__content1__title">Brown Hazelnut</h6>
+                    <p class="linear"></p>
+                    <div class="rating">
+                      <div class="prices">
+                        <p class="price1"><del>$20.00</del></p>
+                        <p class="price2">$12.00</p>
+                      </div>
+                      <img
+                        src="images/home/Star.svg"
+                        alt="This is star image"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="shop__product offer_77">
+                  <button class="shop__btn">Vegetable</button>
+                  <img
+                    src="images/home/offer3.png"
+                    alt="This is health image"
+                    class="product__img p_img5"
+                  />
+                  <div class="shop__content1">
+                    <h6 class="shop__content1__title">Onion</h6>
+                    <p class="linear"></p>
+                    <div class="rating">
+                      <div class="prices">
+                        <p class="price1"><del>$20.00</del></p>
+                        <p class="price2">$17.00</p>
+                      </div>
+                      <img
+                        src="images/home/Star.svg"
+                        alt="This is star image"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="shop__product offer_77">
+                  <button class="shop__btn">Vegetable</button>
+                  <img
+                    src="images/home/offer4.png"
+                    alt="This is health image"
+                    class="product__img p_img5"
+                  />
+                  <div class="shop__content1">
+                    <h6 class="shop__content1__title">Cabbage</h6>
+                    <p class="linear"></p>
+                    <div class="rating">
+                      <div class="prices">
+                        <p class="price1"><del>$20.00</del></p>
+                        <p class="price2">$17.00</p>
+                      </div>
+                      <img
+                        src="images/home/Star.svg"
+                        alt="This is star image"
+                      />
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="who_we_are__section">
+        <div class="container4">
+          <div class="we__are__content">
+            <p class="we__are__title1">Eco Friendly</p>
+            <h3 class="we__are__title">
+              Econis is a Friendly <br />
+              Organic Store
+            </h3>
+            <h5 class="we__are__title2">Start with Our Company First</h5>
+            <p class="we__are__subtitle">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptat
+              accusantium doloremque laudantium. Sed ut perspiciatis.
+            </p>
+            <h5 class="we__are__title2">Learn How to Grow Yourself</h5>
+            <p class="we__are__subtitle">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptat
+              accusantium doloremque laudantium. Sed ut perspiciatis.
+            </p>
+            <h5 class="we__are__title2">Farming Strategies of Today</h5>
+            <p class="we__are__subtitle">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptat
+              accusantium doloremque laudantium. Sed ut perspiciatis.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery__section">
+        <div class="container5">
+          <div class="gallery__box1">
+            <p class="gallery__subtitle">Organic Juice</p>
+          </div>
+          <div class="gallery__box2">
+            <p class="gallery__subtitle">Organic Food</p>
+          </div>
+          <div class="gallery__box3">
+            <p class="gallery__subtitle">Nuts Cookis</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog__section">
+        <div class="container">
+          <div class="blog__box">
+            <div class="blog__box__content">
+              <div class="blog__box__content__heading">
+                <p class="blog__box__title1">News</p>
+                <h3 class="blog__box__title">
+                  Discover weekly content about organic food, & more
+                </h3>
+              </div>
+              <button class="blog__box__content__button">
+                More News
+                <img src="images/home/Aerrow.svg" alt="This is arrow image" />
+              </button>
+            </div>
+            <div class="blog__box__card">
+              <div class="blog__box__card_info1">
+                <div class="info1__box">
+                  25 <br />
+                  Nov
+                </div>
+                <div class="info1__text">
+                  <p class="admin">
+                    <img
+                      src="images/home/person_icon.svg"
+                      alt="This is person icon image"
+                    />
+                    By Rachi Card
+                  </p>
+                  <h4 class="display__title">
+                    The Benefits of Vitamin D & How to Get It
+                  </h4>
+                  <p class="display__subtitle">
+                    Simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum
+                  </p>
+                  <button class="display__btn">
+                    Read More
+                    <img
+                      src="images/home/Aerrow.svg"
+                      alt="This is arrow image"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div class="blog__box__card_info2">
+                <div class="info1__box">
+                  25 <br />
+                  Nov
+                </div>
+                <div class="info1__text">
+                  <p class="admin">
+                    <img
+                      src="images/home/person_icon.svg"
+                      alt="This is person icon image"
+                    />
+                    By Rachi Card
+                  </p>
+                  <h4 class="display__title">
+                    Our Favourite Summertime Tommeto
+                  </h4>
+                  <p class="display__subtitle">
+                    Simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum
+                  </p>
+                  <button class="display__btn">
+                    Read More
+                    <img
+                      src="images/home/Aerrow.svg"
+                      alt="This is arrow image"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="newslatteer__section">
+        <div class="container">
+          <div class="form__box">
+            <div class="form__box__content">
+              <h3 class="form__box__title">Subscribe to our Newsletter</h3>
+              <div class="input__box">
+                <input
+                  type="email"
+                  class="form__input"
+                  placeholder="Your Email Address"
+                />
+                <button class="subscribe__btn">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container6">
+        <div class="footer__contact__us">
+          <h3 class="u__pages__title f_contact__us">Contact Us</h3>
+          <div class="f_contact_info">
+            <div class="f__info1">
+              <span>Email</span> 
+              needhelp@Organia.com
+            </div>
+
+            <div class="f__info2">
+              <span>Phone</span> 
+              666 888 888
+            </div>
+
+            <div class="f__info3">
+              <span>Address</span> 
+              88 road, borklyn street, USA
+            </div>
+          </div>
+        </div>
+        <p class="line"></p>
+        <div class="footer__about">
+          <img
+            src="images/home/Logo.svg"
+            alt="This is logo image"
+            class="footer__logo"
+          />
+          <p class="f_about__subtitle">
+            Simply dummy text of the printing and typesetting industry.Lorem
+            Ipsum simply dummy text of the printing
+          </p>
+          <div class="about__follow">
+            <img src="images/home/1.svg" alt="This is instagram image" />
+            <img src="images/home/2.svg" alt="This is facebook image" />
+            <img src="images/home/3.svg" alt="This is twitter image" />
+            <img src="images/home/4.svg" alt="This is pinterest image" />
+          </div>
+        </div>
+        <p class="line2"></p>
+        <div class="footer__utility__pages">
+          <h3 class="u__pages__title">Utility Pages</h3>
+          <div class="pages__info">
+            Style Guide <br />
+            404 Not Found <br />
+            Password Protected <br />
+            Licences <br />
+            Changelog
+          </div>
+        </div>
+      </div>
+      <p class="linear footer_line"></p>
+      <p class="footer__bottom__subtitle">
+        Copyright © <span>Organick</span> | Designed by
+        <span>VictorFlow</span> Templates - Powered by <span>Webflow</span>
+      </p>
+    </footer>
+    
+  </body>
 </html>
