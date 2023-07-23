@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.header {
+    width: 100%;
+    height: 204px;
+    display: flex;
+  }
+  
+  .navigation {
+    width: 1596px;
+    height: 66px;
+    margin: 69px auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__logo {
+    margin-top: 5px;
+    margin-right: 150px;
+  }
+  
+  .navigation__items {
+    width: 564px;
+    height: 23px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 130px;
+  }
+  
+  .navigation__item a {
+    text-decoration: none;
+    color: #274C5B;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    padding-bottom: 10px;
+  }
+  
+  .navigation__item a:hover {
+    border-bottom: 2px solid #274C5B;
+  }
+  
+  .header__arrow {
+    margin-bottom: 3px;
+  }
+  
+  .header__input {
+    width: 376px;
+    height: 66px;
+    border-radius: 36px;
+    background: #FAFAFA;
+    border: none;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  
+  .header__search {
+    margin-left: -59px;
+    cursor: pointer;
+    margin-right: 18px;
+  }
+  
+  .header__button {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding-left: 5px;
+    width: 159px;
+    height: 66px;
+    border-radius: 33px;
+    border: 1px solid #E0E0E0;
+    color: #274C5B;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+  }
+  
+  
+.banner{
+    /* display: flex; */
+    position: relative;
+    width: 1740px;
+    height: 450px;
+    margin: 0 auto;
+    background-image: url(../images/shop/Image.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* border: 1px solid; */
+}
+.banner img{
+    width: 100%;
+    height: 90%;
+}
+.banner h2{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 60px;
+
+}
+.shop{
+    display: flex;
+    width: 1500.361px;
+    height: 1535px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    margin-top: 80px;
+    /* border: 1px solid; */
+}
+.row1{
+    display: flex;
+    width: 1500.361px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.cardrow_1{
+    display: flex;
+    width: 1465px;
+    gap: 40px;
+    /* border: 1px solid red; */
+}
+.nav_item{
+    width: 335.09px;
+    height: 483px;
+    list-style: none;
+    border-radius: 30px;
+    background: #F9F8F8;
+    /* border: 1px solid red; */
+}
+.card_btn{
+    display: flex;
+    padding: 5px 12px 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    border: none;
+    background: #274C5B;
+}
+.card_btn a{
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.nav_item img{
+    width: 330.23px;
+    height: 317px;
+    margin-left: 3px;
+    /* margin: 0 auto; */
+}
+.nav_item h2{
+    color: #274C5B;
+    /* text-align: center; */
+    padding-left: 20px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.nav_item p{
+    width: 288.988px;
+    height: 1px;
+    background-color: #DEDDDD;
+    /* stroke-width: 1px; */
+    /* stroke: black; */
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.pricing{
+    display: flex;
+    width: 114px;
+    height: 25px;
+}
+.pricing h3{
+color: #B8B8B8;
+/* text-align: cente; */
+font-family: Open Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 5px;
+margin-left: 20px;
+}
+.pricing h2{
+    color: #274C5B;
+/* text-align: center; */
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 2px;
+margin-left: -15px;
+}
+.pricing img{
+    width: 83.998px;
+    height: 18.375px;
+    margin-top: 3px;
+    margin-left: 120px;
+}
+.newslatteer{
+    position: relative;
+    display: flex;
+    width: 1500.361px;
+    height: 350px;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* gap: 40px; */
+    margin: 0 auto;
+    margin-top: 100px;
+    background-image: url(../images/shop/Photo\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+    margin-bottom: 125px;
+    /* background-position: 50% 0%; */
+    /* border: 1px solid red; */
+}
+.newsbg{
+    /* position: absolute; */
+    display: flex;
+    width: 1350px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 117px;
+    /* border: 1px solid red; */
+}
+.title h2{
+    /* position: absolute; */
+    width: 357px;
+    height: 117px;
+    /* margin-top: 17px; */
+    margin-left: 10px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 349px;
+    height: 80px;
+    border-radius: 16px;
+    background: #FFF;
+    margin-top: 20px;
+    margin-left: 30%;
+    /* border: 1px solid red; */
+}
+.email input{
+    /* color: #ABABAB; */
+    /* background-color: red; */
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 23px;
+    border: none;
+}
+.mail button{
+    display: flex;
+width: 220px;
+height: 80px;
+color: white;
+font-size: 20px;
+padding: 28px 47px 29px 47px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* gap: 40px; */
+margin-left: 160px;
+flex-shrink: 0;
+border-radius: 16px;
+background: #274C5B;
+border: none;
+}
+.container6 {
+    width: 1300px;
+    display: flex;
+    margin: 0 auto;
+  }
+.footer {
+    width: 100%;
+    height: 492px;
+  }
+  
+  .footer__contact__us {
+    width: 285px;
+    height: 307px;
+    margin-right: 51px;
+    display: flex;
+    width: 285px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 32px;
+  }
+  
+  .f_contact__us {
+    margin-bottom: 32px;
+  }
+  
+  .f_contact_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 38px;
+  }
+  
+  .f__info1,
+  .f__info2,
+  .f__info3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .line {
+    width: 1px;
+    height: 336px;
+    background: #D4D4D4;
+    margin-right: 41px;
+  }
+  
+  .footer__about {
+    display: flex;
+    width: 543px;
+    height: 246px;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 42px;
+  }
+  
+  .line2 {
+    width: 1px;
+    height: 336px;
+    background: #D4D4D4;
+    margin-right: 50px;
+  }
+  
+  .footer__utility__pages {
+    display: flex;
+    width: 285px;
+    height: 304px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .footer_line {
+    margin-top: 102px;
+    margin-bottom: 17px;
+  }
+  
+  .footer__bottom__subtitle {
+    text-align: center;
+    color: #525C60;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.772px;
+  }
+  
+  span {
+    color: #525C60;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 165.4%;
+  }
+  
+  .footer__logo {
+    margin-bottom: 23px;
+  }
+  
+  .f_about__subtitle {
+    width: 543px;
+    color: #525C60;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.772px;
+    margin-bottom: 49px;
+  }
+  
+  .about__follow {
+    display: flex;
+    width: 285px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .u__pages__title {
+    color: #274C5B;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+  }
+  
+  .pages__info {
+    width: 285px;
+    color: #525C60;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 49.122px;
+  }
